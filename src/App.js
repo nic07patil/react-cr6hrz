@@ -1,10 +1,11 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import Header from './components/headerComponent/header';
+import './style.css';
 
 export default function App() {
   return (
-    <div>
-      t
+    <div className="App">
+      <Header />
     </div>
   );
 }
